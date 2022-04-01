@@ -5,13 +5,13 @@ class Spawner {
   ArrayList<Tracktor> lane2 = new ArrayList<Tracktor>();
 
   Spawner() {
-    //Add some starting objects to populate the game.
+    //ADD SOME STARTING OBJECTS TO THE GAME
     lane1.add(new YellowCar());
     lane2.add(new Tracktor());
   }
 
   void show() {
-    //Run the show function for every item in each ArrayList
+    //RUN SHOW() FOR EVERY OBJECT IN THE ARRAYLISTS
     //Lane 1
     for (int i = 0; i < lane1.size(); i++) {
       YellowCar temp = lane1.get(i);
@@ -27,7 +27,6 @@ class Spawner {
 
 
   void update() {
-
     //******************************************************
     //******************************************************
     //******************************************************
