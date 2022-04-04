@@ -39,7 +39,7 @@ class Spawner {
       temp.update();
     }
 
-    //ADD YELLOW CAR AT INTERVAL
+    //ADD YELLOW CAR AT A CERTAIN INTERVAL/DISTANCE
     YellowCar last = lane1.get(lane1.size()-1);
     if (last.x < width - 150) {
       lane1.add(new YellowCar());

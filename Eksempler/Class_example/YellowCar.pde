@@ -4,7 +4,7 @@ class YellowCar extends Vehicle {
     lane = 1;
     direction = -1;
     x = 800;
-    speed = 5;
+    speed = 2;
   }
 
   void show() {
