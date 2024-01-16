@@ -1,12 +1,13 @@
-//*****************************************************************************
+//***********************************************************************************
 //* Tic Tac Toe
 //* Programmering B,
 //* af Jeppe Veirum Larsen, Januar 2024
 //*
 //* README!
-//* Forløbet bruger TODO, under hver TODO er der TIP og OPGAVE. TIP kommer
-//* med små hints til hvad man KAN bruge, OPGAVE beskrive hvad der SKAL laves.
-//*****************************************************************************
+//* Forløbet bruger en extensionen TODO Highlight v2, under hver TODO er der TIP
+//* og OPGAVE. TIP kommer med små hints til hvad man KAN bruge, OPGAVE beskrive hvad
+//* der SKAL laves.
+//***********************************************************************************
 
 function setup() {
   createCanvas(400, 400);
