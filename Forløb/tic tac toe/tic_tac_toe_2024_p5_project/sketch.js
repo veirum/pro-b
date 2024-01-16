@@ -64,4 +64,10 @@ function draw() {
   */
 
   //TODO: Spillebrikker som en Funktion
+
+  //TODO: Brikken efter musen
+
+  //TODO: Placer en brik
+
+  //TODO: Pimp dit spil
 }
