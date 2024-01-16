@@ -58,9 +58,6 @@ function draw() {
   // Skriv din kode her og slet mig!
 
   //TODO: Hvor er musen?
-  /*
-
-  */
 
   //TODO: Spillebrikker som en Funktion
 
