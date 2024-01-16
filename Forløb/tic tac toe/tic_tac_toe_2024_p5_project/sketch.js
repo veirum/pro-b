@@ -15,7 +15,6 @@ function setup() {
 function draw() {
   background(220);
   //TODO: Lav en spilleplade på 3 x 3 felter
-
   //-------------------------------------------------
   // TIP:                                           |
   // line(width / 3, 0, width / 3, height);         |
