@@ -26,10 +26,9 @@ function draw() {
   // Lav spilleplade ud af 4 streger.               |
   //-------------------------------------------------
 
-  // FIXME: Skriv din kode her og slet mig!
+  //SKRIV DIN KODE HER!!! OG SLET MIG!!!
 
   //TODO: Lav et X
-
   //-------------------------------------------------
   // TIP:                                           |
   // line() x 2;                                    |
@@ -41,10 +40,9 @@ function draw() {
   // Tegn et X i øverste venstre felt               |
   //-------------------------------------------------
 
-  // FIXME: Skriv din kode her og slet mig!
+  //SKRIV DIN KODE HER!!! OG SLET MIG!!!
 
   //TODO: Lav et O
-
   //-------------------------------------------------
   // TIP:                                           |
   // circle() / ellipse()                           |
@@ -57,15 +55,46 @@ function draw() {
   // Tegn et O i øverste venstre felt               |
   //-------------------------------------------------
 
-  // FIXME: Skriv din kode her og slet mig!
+  //SKRIV DIN KODE HER!!! OG SLET MIG!!!
 
   //TODO: Spillebrikker som en Funktion
 
-  //TODO: Hvor er musen?
+  //TODO: Hvilket felt er musen over?
+  //------------------------------------------------------------------------------
+  // TIP:                                                                        |
+  // console.log(mouseX, mouseY);                                                |
+  // Øverste venstre felt:                                                       |
+  // if(mouseX>0 && mouseX < witdh/3) && mouseY>0 && mouseY < height/3){         |
+  //    position = 1;                                                            |
+  // }                                                                           |
+  //------------------------------------------------------------------------------
 
-  //TODO: Brikken efter musen
+  //-----------------------------------------------------------------------
+  // OPGAVE:                                                              |
+  // Definer alle 9 felter og print i console hvilket felt musen er over  |
+  //-----------------------------------------------------------------------
 
-  //TODO: Placer en brik
+  //TODO: Placer en brik 1
+  //-------------------------------------------------
+  // TIP:                                           |
+  // Array                                          |
+  // let plade = [0, 0, 0, 0, 0, 0, 0, 0, 0];       |
+  // 0: ingen brik, 1: spiler 1, 2: spiller 2       |
+  //-------------------------------------------------
 
-  //TODO: Pimp dit spil
+  //TODO: Placer en brik 2
+  //-------------------------------------------------
+  // TIP:                                           |
+  // circle() / ellipse()                           |
+  // noFill()                                       |
+  // Tegn ud fra orego(0,0), tak mig senere         |
+  //-------------------------------------------------
+
+  //TODO: HVIS DU ER FÆRDIG: Pimp dit spil
+  //-------------------------------------------------
+  // TIP:                                           |
+  // Brug billeder istedet for line() og circle()   |
+  // Optimer din kode, kan du lave det kortere?     |
+  //                                                |
+  //-------------------------------------------------
 }
