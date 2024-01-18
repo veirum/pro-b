@@ -15,7 +15,7 @@ function setup() {
 
 function draw() {
   background(220);
-  //TODO: Lav en spilleplade på 3 x 3 felter
+  //TODO: Lav en spilleplade på 3 x 3 felter #
   //-------------------------------------------------
   // TIP:                                           |
   // line(width / 3, 0, width / 3, height);         |
@@ -26,7 +26,7 @@ function draw() {
   // Lav spilleplade ud af 4 streger.               |
   //-------------------------------------------------
 
-  // Skriv din kode her og slet mig!
+  // FIXME: Skriv din kode her og slet mig!
 
   //TODO: Lav et X
 
@@ -41,7 +41,7 @@ function draw() {
   // Tegn et X i øverste venstre felt               |
   //-------------------------------------------------
 
-  // Skriv din kode her og slet mig!
+  // FIXME: Skriv din kode her og slet mig!
 
   //TODO: Lav et O
 
@@ -57,7 +57,7 @@ function draw() {
   // Tegn et O i øverste venstre felt               |
   //-------------------------------------------------
 
-  // Skriv din kode her og slet mig!
+  // FIXME: Skriv din kode her og slet mig!
 
   //TODO: Spillebrikker som en Funktion
 
