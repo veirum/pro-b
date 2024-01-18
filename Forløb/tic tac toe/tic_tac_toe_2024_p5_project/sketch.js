@@ -4,7 +4,7 @@
 //* af Jeppe Veirum Larsen, Januar 2024
 //*
 //* README!
-//* Forløbet bruger en extensionen TODO Highlight v2, under hver TODO er der TIP
+//* Forløbet bruger en extension'en TODO Highlight v2, under hver TODO er der TIP
 //* og OPGAVE. TIP kommer med små hints til hvad man KAN bruge, OPGAVE beskrive hvad
 //* der SKAL laves.
 //***********************************************************************************
@@ -23,7 +23,7 @@ function draw() {
 
   //-------------------------------------------------
   // OPGAVE:                                        |
-  // Tegn 4 streger for at lave vores spilleplade   |
+  // Lav spilleplade ud af 4 streger.               |
   //-------------------------------------------------
 
   // Skriv din kode her og slet mig!
@@ -38,7 +38,7 @@ function draw() {
 
   //-------------------------------------------------
   // OPGAVE:                                        |
-  // Tegn et X for at lave vores første spillebrik  |
+  // Tegn et X i øverste venstre felt               |
   //-------------------------------------------------
 
   // Skriv din kode her og slet mig!
@@ -48,19 +48,20 @@ function draw() {
   //-------------------------------------------------
   // TIP:                                           |
   // circle() / ellipse()                           |
+  // noFill()                                       |
   // Tegn ud fra orego(0,0), tak mig senere         |
   //-------------------------------------------------
 
   //-------------------------------------------------
   // OPGAVE:                                        |
-  // Tegn et X for at lave vores første spillebrik  |
+  // Tegn et O i øverste venstre felt               |
   //-------------------------------------------------
 
   // Skriv din kode her og slet mig!
 
-  //TODO: Hvor er musen?
-
   //TODO: Spillebrikker som en Funktion
+
+  //TODO: Hvor er musen?
 
   //TODO: Brikken efter musen
 
