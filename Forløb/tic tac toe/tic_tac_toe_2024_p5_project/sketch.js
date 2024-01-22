@@ -114,7 +114,7 @@ function draw() {
 
   //-----------------------------------------------------------------------
   // OPGAVE:                                                              |
-  // - Se på tippet. Overfør den ide på vores kryds og et tomt felt       |
+  // - Se på tippet over. Overfør den ide på vores kryds og et tomt felt  |
   //-----------------------------------------------------------------------
 
   //TODO: HVIS DU ER FÆRDIG: Pimp dit spil
