@@ -23,7 +23,7 @@ function draw() {
 
   //-------------------------------------------------
   // OPGAVE:                                        |
-  // Lav spilleplade ud af 4 streger.               |
+  // - Lav spilleplade ud af 4 streger.             |
   //-------------------------------------------------
 
   //SKRIV DIN KODE HER!!! OG SLET MIG!!!
@@ -37,7 +37,7 @@ function draw() {
 
   //-------------------------------------------------
   // OPGAVE:                                        |
-  // Tegn et X i øverste venstre felt               |
+  // - Tegn et X i øverste venstre felt             |
   //-------------------------------------------------
 
   //SKRIV DIN KODE HER!!! OG SLET MIG!!!
@@ -52,12 +52,10 @@ function draw() {
 
   //-------------------------------------------------
   // OPGAVE:                                        |
-  // Tegn et O i øverste venstre felt               |
+  // - Tegn et O i øverste venstre felt             |
   //-------------------------------------------------
 
   //SKRIV DIN KODE HER!!! OG SLET MIG!!!
-
-  //TODO: Spillebrikker som en Funktion
 
   //TODO: Hvilket felt er musen over?
   //------------------------------------------------------------------------------
@@ -65,19 +63,22 @@ function draw() {
   // console.log(mouseX, mouseY);                                                |
   // Øverste venstre felt:                                                       |
   // if(mouseX>0 && mouseX < witdh/3) && mouseY>0 && mouseY < height/3){         |
-  //    position = 1;                                                            |
+  //    position = 0;                                                            |
   // }                                                                           |
   //------------------------------------------------------------------------------
 
-  //-----------------------------------------------------------------------
-  // OPGAVE:                                                              |
-  // Definer alle 9 felter og print i console hvilket felt musen er over  |
-  //-----------------------------------------------------------------------
+  //-------------------------------------------------------------------------
+  // OPGAVE:                                                                |
+  // - Definer alle 9 felter og print i console hvilket felt musen er over  |
+  // - Gem derefter dette tal i en variabel kaldet position. Brug (0 - 8)   |
+  //-------------------------------------------------------------------------
+
+  //SKRIV DIN KODE HER!!! OG SLET MIG!!!
 
   //TODO: Placer en brik 1
   //-------------------------------------------------
   // TIP:                                           |
-  // Array                                          |
+  // Array til at vise hvad der er på pladen        |
   // let plade = [0, 0, 0, 0, 0, 0, 0, 0, 0];       |
   // 0: ingen brik, 1: spiler 1, 2: spiller 2       |
   //-------------------------------------------------
@@ -89,6 +90,32 @@ function draw() {
   // noFill()                                       |
   // Tegn ud fra orego(0,0), tak mig senere         |
   //-------------------------------------------------
+
+  //TODO: Tegn vores data
+  //-------------------------------------------------
+  // TIP:                                           |
+  // circle() / ellipse()                           |
+  // noFill()                                       |
+  // Tegn ud fra orego(0,0), tak mig senere         |
+  //-------------------------------------------------
+
+  //TODO: Spillebrikker som en Funktion
+
+  //---------------------------------------------------------------------------------------------
+  // TIP:                                                                                       |
+  //  function circle(arrayPosition) {                                                          |
+  //    if(spilleplade[i]== 1){                                                                 |
+  //    circle(width / 6 + (width / 3) * arrayPosition, height / 6 + y * (arrayPosition % 3));  |
+  //                        }                                                                   |
+  //     ?Hvad med krydset og et tomt felt?                                                     |
+  //  }                                                                                         |
+  //                                                                                            |
+  //---------------------------------------------------------------------------------------------
+
+  //-----------------------------------------------------------------------
+  // OPGAVE:                                                              |
+  // - Se på tippet. Overfør den ide på vores kryds og et tomt felt       |
+  //-----------------------------------------------------------------------
 
   //TODO: HVIS DU ER FÆRDIG: Pimp dit spil
   //-------------------------------------------------
