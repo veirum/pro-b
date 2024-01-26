@@ -8,13 +8,14 @@
 //* og OPGAVE. TIP kommer med små hints til hvad man KAN bruge, OPGAVE beskrive hvad
 //* der SKAL laves.
 //***********************************************************************************
+let position = 0;
 
 function setup() {
   createCanvas(400, 400);
 }
 
 function draw() {
-  background(220);
+  background(255);
   //TODO: Lav en spilleplade på 3 x 3 felter #
   //-------------------------------------------------
   // TIP:                                           |
@@ -26,14 +27,27 @@ function draw() {
   // - Lav spilleplade ud af 4 streger.             |
   //-------------------------------------------------
 
-  //SKRIV DIN KODE HER!!! OG SLET MIG!!!
+  //Mulighed 1: 3 x 3 spilleplade
 
+  line(width / 3, 0, width / 3, height);
+  line((width / 3) * 2, 0, (width / 3) * 2, height);
+  line(0, height / 3, width, height / 3);
+  line(0, (height / 3) * 2, width, (height / 3) * 2);
+
+  //Mulighed 2 (loop): 3 x 3 spilleplade
+  /*
+  let antalFelter = 3;
+  for (let i = 0; i < size - 1; i++) {
+    line(width / size + (width / size) * i, 0, width / size + (width / size) * i, height);
+    line(0, height / size + (height / size) * i, width, height / size + (height / size) * i);
+  }
+*/
   //TODO: Hvilket felt er musen over?
   //------------------------------------------------------------------------------
   // TIP:                                                                        |
   // console.log(mouseX, mouseY);                                                |
   // Øverste venstre felt:                                                       |
-  // if(mouseX>0 && mouseX < witdh/3) && mouseY>0 && mouseY < height/3){         |
+  // if(mouseX>0 && mouseX < witdh/3 && mouseY>0 && mouseY < height/3){         |
   //    position = 0;                                                            |
   // }                                                                           |
   //------------------------------------------------------------------------------
@@ -44,7 +58,33 @@ function draw() {
   // - Gem derefter dette tal i en variabel kaldet position. Brug (0 - 8)   |
   //-------------------------------------------------------------------------
 
-  //SKRIV DIN KODE HER!!! OG SLET MIG!!!
+  for (let i = 0; i < 9; i++) {
+    if (mouseX > 0 + (width / 3) * (i % 3) && mouseX < width / 3 + (width / 3) * (i % 3) && mouseY > 0 + (height / 3) * floor(i / 3) && mouseY < height / 3 + (height / 3) * floor(i / 3)) {
+      position = i;
+    }
+  }
+  console.log(position);
+
+  //TODO: Placer en brik 1
+  //-------------------------------------------------
+  // TIP:                                           |
+  // Array til at håndtere hvad der er på pladen    |
+  // let plade = [0, 0, 0, 0, 0, 0, 0, 0, 0];       |
+  // 0: ingen brik, 1: spiler 1, 2: spiller 2       |
+  //-------------------------------------------------
+
+  //-------------------------------------------------
+  // OPGAVE:                                        |
+  // - Lav et array med længden 9                   |
+  //-------------------------------------------------
+
+  //TODO: Placer en brik 2
+  //-------------------------------------------------
+  // TIP:                                           |
+  // circle() / ellipse()                           |
+  // noFill()                                       |
+  // Tegn ud fra orego(0,0), tak mig senere         |
+  //-------------------------------------------------
 
   //TODO: Lav et X
   //-------------------------------------------------
@@ -74,22 +114,6 @@ function draw() {
   //-------------------------------------------------
 
   //SKRIV DIN KODE HER!!! OG SLET MIG!!!
-
-  //TODO: Placer en brik 1
-  //-------------------------------------------------
-  // TIP:                                           |
-  // Array til at vise hvad der er på pladen        |
-  // let plade = [0, 0, 0, 0, 0, 0, 0, 0, 0];       |
-  // 0: ingen brik, 1: spiler 1, 2: spiller 2       |
-  //-------------------------------------------------
-
-  //TODO: Placer en brik 2
-  //-------------------------------------------------
-  // TIP:                                           |
-  // circle() / ellipse()                           |
-  // noFill()                                       |
-  // Tegn ud fra orego(0,0), tak mig senere         |
-  //-------------------------------------------------
 
   //TODO: Tegn vores data
   //-------------------------------------------------
