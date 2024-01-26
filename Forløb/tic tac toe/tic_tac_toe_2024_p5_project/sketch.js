@@ -28,6 +28,24 @@ function draw() {
 
   //SKRIV DIN KODE HER!!! OG SLET MIG!!!
 
+  //TODO: Hvilket felt er musen over?
+  //------------------------------------------------------------------------------
+  // TIP:                                                                        |
+  // console.log(mouseX, mouseY);                                                |
+  // Øverste venstre felt:                                                       |
+  // if(mouseX>0 && mouseX < witdh/3) && mouseY>0 && mouseY < height/3){         |
+  //    position = 0;                                                            |
+  // }                                                                           |
+  //------------------------------------------------------------------------------
+
+  //-------------------------------------------------------------------------
+  // OPGAVE:                                                                |
+  // - Definer alle 9 felter og print i console hvilket felt musen er over  |
+  // - Gem derefter dette tal i en variabel kaldet position. Brug (0 - 8)   |
+  //-------------------------------------------------------------------------
+
+  //SKRIV DIN KODE HER!!! OG SLET MIG!!!
+
   //TODO: Lav et X
   //-------------------------------------------------
   // TIP:                                           |
@@ -54,24 +72,6 @@ function draw() {
   // OPGAVE:                                        |
   // - Tegn et O i øverste venstre felt             |
   //-------------------------------------------------
-
-  //SKRIV DIN KODE HER!!! OG SLET MIG!!!
-
-  //TODO: Hvilket felt er musen over?
-  //------------------------------------------------------------------------------
-  // TIP:                                                                        |
-  // console.log(mouseX, mouseY);                                                |
-  // Øverste venstre felt:                                                       |
-  // if(mouseX>0 && mouseX < witdh/3) && mouseY>0 && mouseY < height/3){         |
-  //    position = 0;                                                            |
-  // }                                                                           |
-  //------------------------------------------------------------------------------
-
-  //-------------------------------------------------------------------------
-  // OPGAVE:                                                                |
-  // - Definer alle 9 felter og print i console hvilket felt musen er over  |
-  // - Gem derefter dette tal i en variabel kaldet position. Brug (0 - 8)   |
-  //-------------------------------------------------------------------------
 
   //SKRIV DIN KODE HER!!! OG SLET MIG!!!
 
