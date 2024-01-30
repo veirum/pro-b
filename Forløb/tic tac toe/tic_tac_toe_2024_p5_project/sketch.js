@@ -9,6 +9,8 @@
 //* der SKAL laves.
 //***********************************************************************************
 let position = 0;
+let spilleplade = [101, 102, 103, 104, 105, 106, 107, 108, 109];
+let player = 0;
 
 function setup() {
   createCanvas(400, 400);
@@ -63,7 +65,7 @@ function draw() {
       position = i;
     }
   }
-  console.log(position);
+  //console.log(position);
 
   //TODO: Placer en brik 1
   //-------------------------------------------------
@@ -77,6 +79,8 @@ function draw() {
   // OPGAVE:                                        |
   // - Lav et array med længden 9                   |
   //-------------------------------------------------
+
+  //console.log(spilleplade[position]);
 
   //TODO: Placer en brik 2
   //-------------------------------------------------
@@ -148,4 +152,17 @@ function draw() {
   // Optimer din kode, kan du lave det kortere?     |
   //                                                |
   //-------------------------------------------------
+}
+
+function mousePressed() {
+  //player = !player;
+
+  if (player == 1) {
+    player = 0;
+  } else {
+    player = 1;
+  }
+
+  spilleplade[position] = player;
+  console.log(spilleplade);
 }
