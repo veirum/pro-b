@@ -10,7 +10,7 @@
 //***********************************************************************************
 let position = 0;
 let spilleplade = [101, 102, 103, 104, 105, 106, 107, 108, 109];
-let player = 0;
+let player = 1;
 
 function setup() {
   createCanvas(400, 400);
@@ -158,7 +158,7 @@ function mousePressed() {
   //player = !player;
 
   if (player == 1) {
-    player = 0;
+    player = 2;
   } else {
     player = 1;
   }
