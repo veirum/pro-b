@@ -9,7 +9,8 @@
 //* der SKAL laves.
 //***********************************************************************************
 let position = 0;
-let spilleplade = [101, 102, 103, 104, 105, 106, 107, 108, 109];
+//Sætter min plade til tom, jeg har valgt 2 som tom
+let spilleplade = [0, 0, 0, 0, 0, 0, 0, 0, 0];
 let player = 1;
 
 function setup() {
@@ -117,6 +118,21 @@ function draw() {
   // - Tegn et O i øverste venstre felt             |
   //-------------------------------------------------
 
+  for (let i = 0; i < spilleplade.length; i++) {
+    //tegne cirkel for spiller
+    if (spilleplade[i] == 2) {
+      if (i < 3) {
+        circle(width / 6 + (width / 3) * i, height / 6, (width / 3) * 0.9);
+      }
+      if (i > 2 && i < 6) {
+        circle(width / 6 + (width / 3) * (i - 3), height / 6 + height / 3, (width / 3) * 0.9);
+      }
+      if (i > 5) {
+        circle(width / 6 + (width / 3) * (i - 6), height / 6 + (height / 3) * 2, (width / 3) * 0.9);
+      }
+    }
+  }
+
   //SKRIV DIN KODE HER!!! OG SLET MIG!!!
 
   //TODO: Tegn vores data
@@ -157,12 +173,15 @@ function draw() {
 function mousePressed() {
   //player = !player;
 
-  if (player == 1) {
-    player = 2;
-  } else {
-    player = 1;
-  }
+  //jeg tillader kun at ligge en brik hvis feltet er tomt
+  if (spilleplade[position] == 0) {
+    if (player == 1) {
+      player = 2;
+    } else {
+      player = 1;
+    }
 
-  spilleplade[position] = player;
-  console.log(spilleplade);
+    spilleplade[position] = player;
+    console.log(spilleplade);
+  }
 }
